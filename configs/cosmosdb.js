@@ -31,7 +31,7 @@ static getDavar clienttabase() {
 var Singleton = (function(){
     function Singleton() {
         this.endpoint = 'https://snapbizz-test-v2.documents.azure.com:443/';
-        this.masterkey = '6PKi6bVWzqHW4MRKUKpU4OUd1HQObflQ5fCHjWv6U1vG0D2zjxy6oIzX0at50lzgB6NH4e3lK3OAeYXHhfam3g==';
+        this.masterkey = '==';
         this.database = 'FamilyDatabase';
         client = new CosmosClient({ endpoint: this.endpoint, auth: { masterKey: this.masterkey} });
         console.log('constructor of Cosmosdb ...');
@@ -60,7 +60,7 @@ Cosmosdb.prototype.getDataBase = function()
 */
 const cosmosdb = { 
     nosql_endpoint: 'https://snapbizz-test-v2.documents.azure.com:443/',
-    nosql_key: '6PKi6bVWzqHW4MRKUKpU4OUd1HQObflQ5fCHjWv6U1vG0D2zjxy6oIzX0at50lzgB6NH4e3lK3OAeYXHhfam3g==',
+    nosql_key: '==',
     nosql_database: 'snapbizz-v2-test',
     nosql_container: 'test_invoices1420070400',
     
