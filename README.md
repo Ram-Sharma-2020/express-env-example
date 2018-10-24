@@ -1,6 +1,7 @@
 # Express Env Example
 
-This is an express environment example that I wrote to demonstrate modular Express routing patterns. This environment enables easy extensibility, scalability, and proper software design practices.
+<b><u> Original Ref : </b></u> <link> https://github.com/kelyvin/express-env-example </link>
+This is an express environment example that I have taken from above mentioned account and tried to configure with three different databases [RDBMS(Mysql), NoSql(Cosmos-db, Couch Db)] to demonstrate modular Express routing patterns. This environment enables easy extensibility, scalability, and proper software design practices.
 
 
 **03/13/2018 Update**: An improved/advanced version of this architecture will be uploaded in the near future, be on the lookout.
