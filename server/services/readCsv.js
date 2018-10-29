@@ -2,7 +2,7 @@
 
 const fs = require('fs'); 
 const parse = require('csv-parser');
-var parser = parse({delimiter: ','});
+var parser = parse(`"barcode", "image"`,{delimiter: ','});
 var input = fs.createReadStream('/home/ram/Downloads/output3.csv');
 
 
@@ -15,8 +15,8 @@ function updateProduct(req, res) {
             if (record==null) 
                 continue;
             record = JSON.stringify(record);
+            console.log(record);
             let records = JSON.parse(record);
-            // Please add the header column in csv file as i.e barcode, image
             console.log(records.barcode + " " + records.image + '\n');
             /*
             db.query("UPDATE products SET image = ? WHERE barcode = ?", [records.image, records.barcode], function (err, results, fields) {
