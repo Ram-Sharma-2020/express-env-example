@@ -21,6 +21,8 @@
     "@azure/cosmos": "^2.0.2",
     "nano": "^7.1.0",
     "mysql": "2.16.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "fs": "^0.0.1-security",
+    "csv-parser": "^2.1.0"
   }
 }
