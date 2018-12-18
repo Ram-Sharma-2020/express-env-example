@@ -26,5 +26,6 @@ db.sequelize = sequelize;
 
 // Add all the RDBMS table schema here 
 db.products = require('../server/model/product.js')(sequelize, Sequelize);
+db.devices = require('../server/model/device.js')(sequelize, Sequelize);
 
 module.exports = db;
