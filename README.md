@@ -28,12 +28,15 @@ npm start
  - `/api/v1/products/` - Post List of Products
  - `/api/v1/products/:barcode`  - Update a product with the specified barcode
  - `/api/v1/products/:barcode`  - Delete a product with the specified barcode
- 
+ - `/api/v1/devices` - Get all devices
+
 ### API for Cosmos DB
  - `/api/v1/invoices/:store` - Get all invoices respective to store id
 
 ### API for Couch DB
  - `/api/v1/couch-invoices` - Post all invoices to mention database
+
+ 
   
 
  
